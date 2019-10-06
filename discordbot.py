@@ -3,6 +3,7 @@ import discord
 
 # 自分のBotのアクセストークンに置き換えてください
 TOKEN = 'NjMwMTY5MzUyNjQwOTIxNjQw.XZlCMg.ri8CRZSSe13qpRwrBuzXEseQJk4'
+
 # 接続に必要なオブジェクトを生成
 client = discord.Client()
 
@@ -23,4 +24,4 @@ async def on_message(message):
         await message.channel.send('にゃーん')
 
 # Botの起動とDiscordサーバーへの接続
-bot.run('NjMwMTY5MzUyNjQwOTIxNjQw.XZlCMg.ri8CRZSSe13qpRwrBuzXEseQJk4')
+client.run('NjMwMTY5MzUyNjQwOTIxNjQw.XZlCMg.ri8CRZSSe13qpRwrBuzXEseQJk4')
