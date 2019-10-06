@@ -3,7 +3,7 @@ import os
 import traceback
 
 bot = commands.Bot(command_prefix='/')
-token = os.environ['DISCORD_BOT_TOKEN']
+token = os.environ['NjMwMTY5MzUyNjQwOTIxNjQw.XZlCMg.ri8CRZSSe13qpRwrBuzXEseQJk4']
 
 
 @bot.event
@@ -16,4 +16,4 @@ async def ping(ctx):
     await ctx.send('pong')
 
 
-bot.run(token)
+bot.run(NjMwMTY5MzUyNjQwOTIxNjQw.XZlCMg.ri8CRZSSe13qpRwrBuzXEseQJk4)
